@@ -31,7 +31,7 @@ LIBS:valves
 LIBS:relay-many-contacts
 LIBS:switch-push
 LIBS:Abluftanlage-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -979,4 +979,6 @@ Text Notes 10750 5100 0    60   ~ 0
 Zeitverzögerung 3 Sekunden\nEmulation eines Tastendrucks
 Text Notes 3700 7900 0    60   ~ 0
 Kabelnummern auf dem schwarzen Kabel\nfür die Dachlüftersteuerung\n1 und 2: Taster "Aus", (30V)\n3 und 4: Taster "An", (30V)\n5 und 6: Lampe "Lüfter läuft", (230V)
+Text Notes 6250 9600 0    60   ~ 0
+Bündelleitung zum Anzeigepanel: 12G1,5\n1: LeuchtmelderDachlüfter - 230V\n2: LeuchtmelderLaserlüfter - L - 230V\n3: LeuchtmelderFräsenlüfter - L - 230V\n4: LeuchtmelderOfenlüfter - L - 230V\n5: LeuchtmelderN - N - 230V\n6: Blaue Lampe - L - 230V\n7: Blaue Lampe - N - 230V\n8: LüftungAn - Drehschalter Kontakt 1\n9: Steuerspannung - Drehschalter Kontakt 2\n10: Reserve\n11: Reserve\n12: PE (grün-gelb)
 $EndSCHEMATC
